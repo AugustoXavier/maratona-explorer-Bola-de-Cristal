@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Bola de Cristal</title>
+    
+</head>
+<body class="container flex f-column color-backgroud sans-serif">
+    <img src="cristal-ball.svg" alt="nola de cristal" class="width-20">
+    <h1 class="f-color-white margin-p">Vou revelar seu destino!</h1>
+    <p class="f-color-white t-font ">Clique em fazer pergunta para que seu destino seja revelado.</p>
+    
+    <input id="inputPergunta" class="width-1 height-2 border-none margin-input border-radius" type="text" placeholder="Digite sua Pergunta">
+    
+    <button onclick="FazerPergunta()" id="botaoFazerPergunta" class="botao color-blue border-none f-color-white t-font margin-botao border-radius hover transition cursor-poiter">Fazer Pergunta</button>
+    <h3 id="pergunta" class="f-color-white"></h3>
+    <p id="resposta" class="f-color-white"></p>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,84 @@
+.container{
+    
+    margin: 0px;
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.width-20{
+    width: 15rem;
+}
+
+.width-15{
+    width:15rem;
+}
+.width-1{
+    min-width:15.6rem;
+}
+.height-2{
+    min-height:3.5rem;
+}
+
+.botao{
+    min-width:15.9rem;
+    min-height:3.6rem;
+}
+
+
+.border-none{
+    border: none;
+}
+
+.color-backgroud{
+    background-color: rgb(29, 28, 28);
+}
+
+.color-blue{
+    background-color: rgb(67, 108, 241);
+}
+
+.t-font{
+    font-size: small;
+}
+
+.f-color-white{
+    color: white;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+
+.margin-input{
+    margin-top: 2rem;
+}
+.margin-botao{
+    
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.border-radius{
+    border-radius: 0.3rem;
+}
+.margin-p{
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+}
+.hover:hover{
+    filter: brightness(1.2);
+    
+}
+
+.transition{
+    transition: filter .10s;
+}
+.cursor-poiter{
+    cursor: pointer;
+}
